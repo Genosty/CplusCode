@@ -24,5 +24,6 @@ int main (){
     std::string stringss[]= {"hello", "hola", "comestats"};
 
     for(std::string strings : stringss)std::cout << strings << '\n';
+    for(std::string strings : stringss)std::cout << strings << '\n';
     return 0;
 }
